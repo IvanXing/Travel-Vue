@@ -4,11 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 // 重置CSS
-import './assets/styles/reset.css'
+import 'styles/reset.css'
 // 移动端300ms点击延迟解决方案
 import fastClick from 'fastclick'
 // 1像素边框解决方案
-import './assets/styles/border.css'
+import 'styles/border.css'
+// 引入iconfont
+import 'styles/iconfont.css'
 
 Vue.config.productionTip = false
 // fastClick使用配置
