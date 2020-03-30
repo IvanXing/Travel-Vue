@@ -1,21 +1,10 @@
-# travel-vue
+## 项目初始配置
 
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+```
+yarn global add vue-cli
+vue init webpack my-project
+yarn run dev
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- 1px 边框解决：引入 border.css
+- 移动端 300ms 点击延迟解决方案：`yarn add fast click —save`
