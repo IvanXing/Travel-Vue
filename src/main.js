@@ -13,6 +13,9 @@ import 'styles/border.css'
 import 'styles/iconfont.css'
 // 引入vue-awesome-swiper
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+// vuex
+import store from './store'
+import 'babel-polyfill'
 import 'swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false
@@ -24,6 +27,7 @@ Vue.use(VueAwesomeSwiper)
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
