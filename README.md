@@ -13,6 +13,10 @@ yarn run dev
   - `yarn add stylus --save`
   - `yarn add stylus-loader --save`
 
+- 安装轮播插件
+
+  - yarn add vue-awesome-swiper@2.6.7 --save
+
 - 关于 rem
 
   - html{ font-size: 50px}
