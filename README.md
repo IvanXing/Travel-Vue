@@ -34,8 +34,9 @@ yarn run dev
 ```
 
 - git 分支
+  - 查看当前分支：git branch -v
   - 查看远程分支：git branch -r
   - 查看所有分支：git branch -a
   - 本地创建新分支：git branch [branch name]
-  - 切换到新分支：git checkout [branch name]
+  - 切换到新分支：git checkout [branch name] index-swiper
   - 创建分支的同时切换到该分支上：git checkout -b [branch name]
